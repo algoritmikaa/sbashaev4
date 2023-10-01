@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+
+.link-header {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 10px 10px 10px grey;
+    font-size: 60px;
+}
+
+.link-nav {
+    color: darkgoldenrod;
+    text-decoration: none;
+    background-color: darkred;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.link-nav:hover {
+    font-size: 20px;
+    transition: 1s;
+    color: yellow;
+    background-color: darkblue;
+    box-shadow: 10px 10px 10px grey;
+}
+
+h1:hover {
+    transition: 1s;
+    color: green;
+}
+
+header {
+    background-image: linear-gradient(white, blue, red);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.link-header {
+    color: black;
+    font-size: 30px;
+}
+
+.link-header:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+main a:hover {
+    font-size: 25px;
+    transition: 1s;
+}
+
+.class2 {
+    background-color: lightblue;
+    border: 5px solid black;
+}
+
+footer {
+    background-color: yellow;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+footer a {
+    margin-left: 150px;
+}
